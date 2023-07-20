@@ -3,7 +3,6 @@ import Loader from 'components/Loader';
 import { Section } from 'components/Section';
 import MoviesList from 'components/MoviesList';
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 
 const Home = () => {
   const [movies, setMovies] = useState([]);
